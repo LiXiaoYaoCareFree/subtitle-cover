@@ -1,0 +1,607 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.SubtitleCover-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCover.build/sources",
+      "importPath" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/xxxiaoling/source code/SubtitleCover/Sources/SubtitleCover/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/swift-version-53F5400E615BE6D.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCover.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "SubtitleCover",
+      "moduleOutputPath" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/Modules/SubtitleCover.swiftmodule",
+      "objects" : [
+        "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCover.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j18",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "SubtitleCover_main",
+        "-swift-version",
+        "5",
+        "-I",
+        "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/lib/swift/macosx/testing",
+        "-L",
+        "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/lib/swift/macosx/testing",
+        "-plugin-path",
+        "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "subtitlecover"
+      ],
+      "outputFileMapPath" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCover.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCover.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/Modules/SubtitleCover.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/xxxiaoling/source code/SubtitleCover/Sources/SubtitleCover/main.swift"
+      ],
+      "tempsPath" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCover.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SubtitleCoverLauncher-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCoverLauncher.build/sources",
+      "importPath" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/xxxiaoling/source code/SubtitleCover/Sources/SubtitleCoverLauncher/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/swift-version-53F5400E615BE6D.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCoverLauncher.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "SubtitleCoverLauncher",
+      "moduleOutputPath" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/Modules/SubtitleCoverLauncher.swiftmodule",
+      "objects" : [
+        "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCoverLauncher.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j18",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "SubtitleCoverLauncher_main",
+        "-swift-version",
+        "5",
+        "-I",
+        "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/lib/swift/macosx/testing",
+        "-L",
+        "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/lib/swift/macosx/testing",
+        "-plugin-path",
+        "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "subtitlecover"
+      ],
+      "outputFileMapPath" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCoverLauncher.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCoverLauncher.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/Modules/SubtitleCoverLauncher.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/xxxiaoling/source code/SubtitleCover/Sources/SubtitleCoverLauncher/main.swift"
+      ],
+      "tempsPath" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCoverLauncher.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SubtitleCoverWindows-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCoverWindows.build/sources",
+      "importPath" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/xxxiaoling/source code/SubtitleCover/Sources/SubtitleCoverWindows/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/swift-version-53F5400E615BE6D.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCoverWindows.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "SubtitleCoverWindows",
+      "moduleOutputPath" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/Modules/SubtitleCoverWindows.swiftmodule",
+      "objects" : [
+        "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCoverWindows.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j18",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "SubtitleCoverWindows_main",
+        "-swift-version",
+        "5",
+        "-I",
+        "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/lib/swift/macosx/testing",
+        "-L",
+        "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/lib/swift/macosx/testing",
+        "-plugin-path",
+        "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "subtitlecover"
+      ],
+      "outputFileMapPath" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCoverWindows.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCoverWindows.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/Modules/SubtitleCoverWindows.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/xxxiaoling/source code/SubtitleCover/Sources/SubtitleCoverWindows/main.swift"
+      ],
+      "tempsPath" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCoverWindows.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "SubtitleCover" : [
+      "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SubtitleCover",
+      "-package-name",
+      "subtitlecover",
+      "-c",
+      "/Users/xxxiaoling/source code/SubtitleCover/Sources/SubtitleCover/main.swift",
+      "-I",
+      "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j18",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "SubtitleCover_main",
+      "-swift-version",
+      "5",
+      "-I",
+      "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/lib/swift/macosx/testing",
+      "-L",
+      "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/lib/swift/macosx/testing",
+      "-plugin-path",
+      "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "subtitlecover",
+      "-driver-use-frontend-path",
+      "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/bin/swiftc"
+    ],
+    "SubtitleCoverLauncher" : [
+      "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SubtitleCoverLauncher",
+      "-package-name",
+      "subtitlecover",
+      "-c",
+      "/Users/xxxiaoling/source code/SubtitleCover/Sources/SubtitleCoverLauncher/main.swift",
+      "-I",
+      "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j18",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "SubtitleCoverLauncher_main",
+      "-swift-version",
+      "5",
+      "-I",
+      "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/lib/swift/macosx/testing",
+      "-L",
+      "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/lib/swift/macosx/testing",
+      "-plugin-path",
+      "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "subtitlecover",
+      "-driver-use-frontend-path",
+      "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/bin/swiftc"
+    ],
+    "SubtitleCoverWindows" : [
+      "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SubtitleCoverWindows",
+      "-package-name",
+      "subtitlecover",
+      "-c",
+      "/Users/xxxiaoling/source code/SubtitleCover/Sources/SubtitleCoverWindows/main.swift",
+      "-I",
+      "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j18",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "SubtitleCoverWindows_main",
+      "-swift-version",
+      "5",
+      "-I",
+      "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/lib/swift/macosx/testing",
+      "-L",
+      "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/lib/swift/macosx/testing",
+      "-plugin-path",
+      "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "subtitlecover",
+      "-driver-use-frontend-path",
+      "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "SubtitleCover" : [
+
+    ],
+    "SubtitleCoverLauncher" : [
+
+    ],
+    "SubtitleCoverWindows" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCover-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCover-entitlement.plist"
+    },
+    "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCover.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/xxxiaoling/source code/SubtitleCover/Sources/SubtitleCover/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCover.build/sources"
+    },
+    "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCover.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCover.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCover.product/Objects.LinkFileList"
+    },
+    "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCoverLauncher-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCoverLauncher-entitlement.plist"
+    },
+    "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCoverLauncher.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/xxxiaoling/source code/SubtitleCover/Sources/SubtitleCoverLauncher/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCoverLauncher.build/sources"
+    },
+    "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCoverLauncher.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCoverLauncher.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCoverLauncher.product/Objects.LinkFileList"
+    },
+    "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCoverWindows-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCoverWindows-entitlement.plist"
+    },
+    "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCoverWindows.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/xxxiaoling/source code/SubtitleCover/Sources/SubtitleCoverWindows/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCoverWindows.build/sources"
+    },
+    "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCoverWindows.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCoverWindows.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCoverWindows.product/Objects.LinkFileList"
+    },
+    "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/swift-version-53F5400E615BE6D.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/opt/homebrew/Cellar/swift/6.2.4/Swift-6.2.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/swift-version-53F5400E615BE6D.txt"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCover.build/master.swiftdeps"
+  },
+  "/Users/xxxiaoling/source code/SubtitleCover/Sources/SubtitleCover/main.swift": {
+    "dependencies": "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCover.build/main.d",
+    "object": "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCover.build/main.swift.o",
+    "swiftmodule": "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCover.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCover.build/main.swiftdeps",
+    "diagnostics": "/Users/xxxiaoling/source code/SubtitleCover/.build/arm64-apple-macosx/debug/SubtitleCover.build/main.dia"
+  }
+}
